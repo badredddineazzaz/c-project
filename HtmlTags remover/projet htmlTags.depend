@@ -1,0 +1,6 @@
+# depslib dependency file v1.0
+1621452295 source:c:\users\badr\desktop\tp c++\projet htmltags\main.cpp
+	<iostream>
+	<fstream>
+	<string>
+

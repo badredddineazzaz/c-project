@@ -1,0 +1,12 @@
+*********** Bienvenue au programme qui supprime les balises d'HTML ***********
+
+Pour que le programme fonctionne correctement, veuillez suivre les instructions ci-dessous:
+
+1-Ouvrez le fichier htmlFile qui se trouve dans le même dossier que le main.
+2-Collez votre code HTML.
+3-Executez le programme.
+
+Vous trouverez 2 options :
+	1) le résultat du traitement sera enregistrer sous forme d'un nouveau fichier texte appelé "résultat.txt". 
+		NOTE : si vous êtes sous un autre système d'exploitation que Windows. Le fichier "résultat" ne s'ouvrira pas automatiquement.
+	2) le résultat sera afficher tous simplement dans la console.
