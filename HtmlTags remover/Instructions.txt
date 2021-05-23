@@ -10,3 +10,10 @@ Vous trouverez 2 options :
 	1) le résultat du traitement sera enregistrer sous forme d'un nouveau fichier texte appelé "résultat.txt". 
 		NOTE : si vous êtes sous un autre système d'exploitation que Windows. Le fichier "résultat" ne s'ouvrira pas automatiquement.
 	2) le résultat sera afficher tous simplement dans la console.
+	
+	
+Exemple de fonctionnement :
+	Input :
+		<p>EST SIDI BENNOUR</p>
+	Output:
+		EST SIDI BENNOUR
