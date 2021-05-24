@@ -18,6 +18,12 @@ int choix;
 
 
 
+                    #if (_WIN32)
+                        system("notepad.exe htmlFile.txt");
+                    #else
+                      cout<<endl<<"Collez votre code dans le fichier: \"htmlFile.txt\"." << endl;
+                    #endif
+
 
 //Fonction qui supprime les balises
 
@@ -50,12 +56,12 @@ int choix;
                     cout<<"\t 1\) Sous forme d'un fichier texte. "<<endl;
                     cout<<"\t 2\) Sur la console."<<endl<<endl;
 
-                //Vérifier si le choix est different de 1 et 2
+                //VÃ©rifier si le choix est different de 1 et 2
                 do{
                     cout<<"Tapez votre choix \(1 ou 2 \) : ";
                     cin>>choix;
 
-                    // Vérifier si le choix n'est pas un nombre
+                    // VÃ©rifier si le choix n'est pas un nombre
                     if(cin.fail()) {
                         cin.clear();
                         cin.ignore(256,'\n');
@@ -68,8 +74,13 @@ int choix;
                     //Enregistrer le resultat dans un fichier texte.
 
                     resultFile << result << endl;
-                    cout << endl<<"Le traitement est fait avec succès. Le résultat est enregistrer dans le fichier resultat.txt."<<endl<<endl;
-                    system("notepad.exe resultat.txt");
+                    cout << endl<<"Le traitement est fait avec succÃ¨s."<<endl<<endl;
+                    #if (_WIN32)
+                        system("notepad.exe resultat.txt");
+                    #else
+                      cout<<endl<<"Le rÃ©sultat est enregistrer dans le fichier \"resultat.txt\"." << endl;
+                    #endif
+
 
 
                     break;
